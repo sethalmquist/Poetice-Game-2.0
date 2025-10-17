@@ -1,16 +1,9 @@
-# Poetice Daily Word Game - Static HTML Repository
 
-This repository contains a ready-to-go static HTML version of the Poetice Daily Word Game prototype.
+Here are the two files you can save directly into a folder named `poetice-daily-word-game`:
 
-## Repository Structure
-```
-poetice-daily-word-game/
-│
-├── index.html  # Main game file
-└── vercel.json # Optional config for Vercel
-```
+---
 
-## index.html
+### **1️⃣ index.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -101,7 +94,9 @@ poetice-daily-word-game/
 </html>
 ```
 
-## vercel.json (Optional for Vercel)
+---
+
+### **2️⃣ vercel.json (optional but recommended for Vercel)**
 ```json
 {
   "version": 2,
@@ -114,10 +109,15 @@ poetice-daily-word-game/
 }
 ```
 
-### How to Use
-1. Create a new GitHub repository.  
-2. Upload `index.html` (and `vercel.json` if using Vercel).  
-3. Connect the repo to Vercel → Deploy.  
-4. Your site should now be live and accessible.  
+---
 
-This repository is ready to be imported directly into GitHub for deployment.
+### **Instructions:**
+
+1. Create a folder called `poetice-daily-word-game`.
+2. Save `index.html` and `vercel.json` (optional) inside that folder.
+3. Upload the folder to a **new GitHub repository**.
+4. Connect the repo to **Vercel** → Deploy → test your live URL.
+
+Once deployed, we can also walk through **pointing `play.poetice.org` to your Vercel site** so everyone can access it.  
+
+Do you want me to guide you through that next?
